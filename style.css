@@ -1,0 +1,363 @@
+/* fonts */
+@font-face
+{
+    font-family: "HK Grotesk";
+    font-weight: 200;
+    src: url("monooki/fnts/HKGrotesk-Light.woff2");
+}
+@font-face
+{
+    font-family: "HK Grotesk";
+    font-weight: 400;
+    src: url("monooki/fnts/HKGrotesk-Regular.woff2");
+}
+@font-face
+{
+    font-family: "MPlus12";
+    src: url("monooki/fnts/MPlus12.woff2");
+}
+
+/* zentai */
+html
+{
+    cursor: crosshair;
+    overflow: hidden;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+#used83o
+{
+    opacity: 0;
+    padding: 24px;
+}
+#logo
+{
+    position: absolute;
+    top: -75px; left: -75px;
+    z-index: -999;
+    user-select: none;
+}
+
+#overlay
+{
+    background-color: rgb(22, 22, 229);
+    position: absolute;
+    top: 0; left: 30vw;
+    width: 100%;
+    height: 100%;
+    /*z-index: 999;*/
+
+    cursor: wait;
+}
+.loaded
+{
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-out, visibility 0s 0.2s;
+}
+
+.left30
+{
+    position: absolute;
+    top: 0; left: 0; right: 70vw;
+    height: 100%;
+    
+    display: grid;
+    grid-template-rows: 105px 1fr;
+    align-content: start;
+    z-index: -999;
+}
+.ueobi
+{
+    display: flex;
+    grid-row: 1/2;
+    
+    background-color: rgb(22, 22, 229);
+    position: absolute;
+    top: 0; left: 0; right: 70vw;
+    width: 100%;
+    z-index: 10;
+}
+
+.desc
+{
+    color: rgb(243, 243, 243);
+    background-color: var(--cmdcolor);
+
+    font-family: "MPlus12";
+    font-size: 10.8pt;
+    grid-row: 2/3;
+    border: none;
+    outline: none;
+    position: absolute;
+    resize: none;
+    left: 0; right: 70vw;
+    width: 100%;
+    height: 100%;
+
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    z-index: 10;
+}
+.desc::selection
+{
+    color: var(--cmdcolor);
+    background-color: rgb(243, 243, 243);
+}
+
+/*.right70
+{
+    position: absolute;
+    top: 0; left: 30vw; right: 0;
+    width: 100%;
+    height: 100%;
+    
+    display: grid;
+    grid-template-rows: 1fr 105px;
+    align-content: start;
+    z-index: -999;
+}*/
+#sitaobi
+{
+    background-color: var(--bgcolor);
+
+    position: absolute;
+    bottom: 0; left: 30vw; right: 0;
+    height: 105px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 10;
+}
+    .viewport
+    {
+        overflow: hidden;
+        user-select: none;
+        
+        display: flex;
+        background-color: var(--bgcolor);
+        width: 100%;
+        padding: 29.5px;
+    }
+    /*.viewport:active
+    {
+        cursor: grabbing;
+    }*/
+    .content
+    {
+        display: flex;
+        position: relative;
+        height: 38px;
+        align-self: center;
+        gap: 12vw;
+        padding-right: 12vw;
+        
+        animation: slide linear 0s infinite normal both;
+        animation-duration: 24s;
+    }
+    .content:nth-child(1)
+    {
+        animation-name: first;
+    }
+    .content:nth-child(2)
+    {
+        animation-name: second;
+    }
+    .content:nth-child(3)
+    {
+        animation-name: third;
+    }
+    @keyframes first
+    {
+        from
+        {
+            transform: translateX(0);
+        }
+        to
+        {
+            transform: translateX(-100%);
+        }
+    }
+    @keyframes second
+    {
+        from
+        {
+            transform: translateX(0);
+        }
+        to
+        {
+            transform: translateX(-100%);
+        }
+    }
+    @keyframes third
+    {
+        from
+        {
+            transform: translateX(0);
+        }
+        to
+        {
+            transform: translateX(-100%);
+        }
+    }
+    #works
+    {
+        font-family: "HK Grotesk";
+        font-weight: var(--fntweight);
+        color: var(--fntcolor);
+
+        font-size: 8.6pt;
+        writing-mode: vertical-lr;
+        position: relative;
+        top: 2px;
+        user-select: none;
+    }
+
+/* tags */
+a
+{
+    color: var(--fntcolor);
+    font-weight: var(--fntweight);
+    text-decoration-line: none;
+}
+a::selection
+{
+    background-color: rgb(12, 12, 12);
+}
+    #sortbytags
+    {
+        font-family: "HK Grotesk";
+        font-weight: 200;
+        color: var(--fntcolor);
+
+        font-size: 9.2pt;
+        writing-mode: vertical-rl;
+        position: relative;
+        margin: 24px 0px 24px 0px;
+        left: -12px;
+    }
+    #A_tag
+    {
+        font-family: "HK Grotesk";
+        font-weight: 200;
+
+        color: var(--fntcolor);
+        font-size: 9.2pt;
+        writing-mode: vertical-rl;
+        text-decoration-line: overline;
+        position: relative;
+        margin: 24px 4px 24px 0px;
+        left: -12px;
+    }
+    #A_tag:hover
+    {
+        color: var(--bgcolor);
+    }
+    #B_tag
+    {
+        font-family: "HK Grotesk";
+        font-weight: 200;
+
+        color: var(--fntcolor);
+        font-size: 9.2pt;
+        writing-mode: vertical-rl;
+        text-decoration-line: overline;
+        position: relative;
+        margin: 24px 4px 24px 0px;
+        left: -12px;
+    }
+    #B_tag:hover
+    {
+        color: var(--bgcolor);
+    }
+
+#tagSpace
+{
+    /*border-left: 1.9px solid rgb(243, 243, 243);*/
+    padding-left: 36px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    user-select: none;
+}
+
+
+.dropzone
+{
+    background-color: var(--bgcolor_hako);
+
+    position: absolute;
+    top: 0; left: 30vw; bottom: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(12, 12, 12);
+    opacity: 0;
+    user-select: none;
+    visibility: hidden;
+    
+    z-index: 10;
+    transition: opacity 0.2s ease-out, background-color 0.2s;
+}
+.dragging
+{
+    opacity: 0.5;
+    visibility: visible;
+}
+.dragenter
+{
+    background-color: rgb(22, 22, 229);
+    opacity: 0.8;
+    transition: opacity 0.2s ease-out, background-color 0.2s;
+}
+#plus
+{
+    font-family: "HK Grotesk";
+    font-weight: 200;
+    color: rgb(243, 243, 243);
+    
+    position: absolute;
+    top: 0; left: 30vw;
+    margin: 100px;
+    scale: 1000%;
+    z-index: 999;
+}
+#nextpage
+{
+    font-family: "HK Grotesk";
+    font-weight: 200;
+    color: rgb(243, 243, 243);
+    
+    position: absolute;
+    writing-mode: vertical-rl;
+    top: 12vh; left: 30vw;
+    margin: 100px;
+    scale: 120%;
+    z-index: 999;
+}
+
+:root
+{
+    --bgcolor_hako: rgb(12, 12, 12);
+}
+:root[theme="swap"]
+{
+    --bgcolor_hako: rgb(243, 243, 243);
+}
+
+:root
+{
+    --bgcolor: rgb(22, 22, 229);
+    --cmdcolor: rgb(12, 12, 12);
+    --fntcolor: rgb(243, 243, 243);
+    --fntweight: 200;
+}
+:root[theme="swap"]
+{
+    --bgcolor: rgb(243, 243, 243);
+    --cmdcolor: rgb(22, 22, 229);
+    --fntcolor: rgb(22, 22, 229);
+    --fntweight: 400;
+}
