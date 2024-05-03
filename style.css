@@ -77,7 +77,7 @@ html
     
     background-color: rgb(22, 22, 229);
     position: absolute;
-    top: 0; left: 0; right: 70vw;
+    left: 0; right: 70vw;
     width: 100%;
     z-index: 10;
 }
@@ -108,18 +108,6 @@ html
     background-color: rgb(243, 243, 243);
 }
 
-/*.right70
-{
-    position: absolute;
-    top: 0; left: 30vw; right: 0;
-    width: 100%;
-    height: 100%;
-    
-    display: grid;
-    grid-template-rows: 1fr 105px;
-    align-content: start;
-    z-index: -999;
-}*/
 #sitaobi
 {
     background-color: var(--bgcolor);
@@ -290,7 +278,7 @@ a::selection
     background-color: var(--bgcolor_hako);
 
     position: absolute;
-    top: 0; left: 30vw; bottom: 100px;
+    left: 30vw; bottom: 100px;
     width: 100%;
     height: 100%;
     background-color: rgb(12, 12, 12);
@@ -332,7 +320,7 @@ a::selection
     
     position: absolute;
     writing-mode: vertical-rl;
-    top: 12vh; left: 30vw;
+    top: 14vh; left: 30vw;
     margin: 100px;
     scale: 120%;
     z-index: 999;
