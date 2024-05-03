@@ -1,0 +1,99 @@
+/* hakos 4/4 = 70vw, 2/4 = 35vw, 1/4 = 17.5vw */
+.hako_tw
+{
+    background-color: var(--bgcolor_hako);
+    
+    position: absolute;
+    top: 0; left: 30vw; bottom: 100px;
+    width: 70vw;
+    overflow: scroll;
+    user-select: none;
+    scale: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px;
+    z-index: -1;
+}
+    #A_tw
+    {
+        width: calc(70vw - 2px);
+        height: 40vh;
+    }
+    #A_tw:hover
+    {
+        opacity: 0.9;
+    }
+    #B_tw
+    {
+        width: calc(35vw - 2px);
+        height: calc(35vw - 2px);
+    }
+    #B_tw:hover
+    {
+        opacity: 0.9;
+    }
+    .hako_tw_
+    {
+        background-color: var(--bgcolor_hako);
+    
+        position: relative;
+        width: calc(35vw - 2px);
+        height: calc(35vw - 2px);
+        
+        overflow: hidden;
+        user-select: none;
+        scale: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2px;
+        z-index: -1;
+    }
+        #C_tw
+        {
+            width: calc(17.5vw - 2px);
+            height: calc(17.5vw - 2px);
+        }
+        #C_tw:hover
+        {
+            opacity: 0.9;
+        }
+        #D_tw
+        {
+            width: calc(17.5vw - 2px);
+            height: calc(17.5vw - 2px);
+        }
+        #D_tw:hover
+        {
+            opacity: 0.9;
+        }
+        #E_tw
+        {
+            width: calc(35vw - 2px);
+            height: calc(17.5vw - 2px);
+        }
+        #E_tw:hover
+        {
+            opacity: 0.9;
+        }
+    #F_tw
+    {
+        width: calc(70vw - 2px);
+    }
+    #F_tw:hover
+    {
+        opacity: 0.9;
+    }
+
+:root
+{
+    --bgcolor_hako: rgb(12, 12, 12);
+}
+:root[theme="swap"]
+{
+    --bgcolor_hako: rgb(243, 243, 243);
+}
