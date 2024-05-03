@@ -1,0 +1,109 @@
+/* hakos 4/4 = 70vw, 2/4 = 35vw, 1/4 = 17.5vw */
+.hako_ss
+{
+    background-color: var(--bgcolor_hako);
+    
+    position: absolute;
+    top: 0; left: 30vw; bottom: 100px;
+    width: 70vw;
+    overflow: scroll;
+    user-select: none;
+    scale: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px;
+    z-index: -1;
+}
+    #A_ss
+    {
+        width: calc(70vw - 2px);
+        height: calc(70vw - 2px);
+        overflow: hidden;
+        opacity: 0.95;
+    }
+    #A_ss:hover
+    {
+        opacity: 1;
+    }
+    #B_ss
+    {
+        width: calc(70vw / 2 - 2px);
+        height: calc(70vw / 2 - 2px);
+        opacity: 0.95;
+    }
+    #B_ss:hover
+    {
+        opacity: 1;
+    }
+    #C_ss
+    {
+        width: calc(70vw / 2 - 2px);
+        height: calc(70vw / 2 - 2px);
+        opacity: 0.95;
+    }
+    #C_ss:hover
+    {
+        opacity: 1;
+    }
+    #D_ss
+    {
+        width: calc(70vw / 2 - 2px);
+        height: calc(70vw / 2 - 2px);
+        opacity: 0.95;
+    }
+    #D_ss:hover
+    {
+        opacity: 1;
+    }
+    #E_ss
+    {
+        width: calc(70vw / 2 - 2px);
+        height: calc(70vw / 2 - 2px);
+        opacity: 0.95;
+    }
+    #E_ss:hover
+    {
+        opacity: 1;
+    }
+    #F_ss
+    {
+        width: calc(70vw / 2 - 2px);
+        height: calc(70vw / 2 - 2px);
+        opacity: 0.95;
+    }
+    #F_ss:hover
+    {
+        opacity: 1;
+    }
+    #G_ss
+    {
+        width: calc(70vw / 2 - 2px);
+        height: calc(70vw / 2 - 2px);
+        opacity: 0.95;
+    }
+    #G_ss:hover
+    {
+        opacity: 1;
+    }
+    #Z_ss
+    {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        opacity: 0.95;
+    }
+    #Z_ss:hover
+    {
+        opacity: 1;
+    }
+
+:root
+{
+    --bgcolor_hako: rgb(12, 12, 12);
+}
+:root[theme="swap"]
+{
+    --bgcolor_hako: rgb(243, 243, 243);
+}
