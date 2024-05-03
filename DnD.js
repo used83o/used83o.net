@@ -33,7 +33,8 @@ $(function() {
     {
         e.preventDefault();
         let goto = e.originalEvent.dataTransfer.getData('text');
-        window.location.href = goto;
+        console.log(goto);
+        window.location.href = "https://used83o.net/" + goto;
     }
     
     function addDraggingEffect()
