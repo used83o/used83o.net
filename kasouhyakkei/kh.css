@@ -1,0 +1,728 @@
+/* hakos 4/4 = 70vw, 2/4 = 35vw, 1/4 = 17.5vw */
+.hako_kh
+{
+    background-color: var(--bgcolor_hako);
+    
+    position: absolute;
+    top: 0; left: 30vw; bottom: 100px;
+    width: 70vw;
+    overflow: scroll;
+    user-select: none;
+    scale: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px;
+    z-index: -1;
+}
+    #A_kh
+    {
+        width: calc(70vw / 2 - 2px);
+        height: calc(70vw / 2 - 2px);
+        opacity: 1;
+    }
+    #A_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #B_kh
+    {
+        width: calc(70vw / 2 - 2px);
+        height: calc(70vw / 2 - 2px);
+        opacity: 1;
+    }
+    #B_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #C_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #C_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #D_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #D_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #E_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #E_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #F_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #F_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #G_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #G_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #H_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #H_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #I_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #I_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #J_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #J_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #K_kh
+    {
+        width: calc(70vw / 2 - 2px);
+        height: calc(70vw / 2 - 2px);
+        opacity: 1;
+    }
+    #K_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #L_kh
+    {
+        width: calc(70vw / 2 - 2px);
+        height: calc(70vw / 2 - 2px);
+        opacity: 1;
+    }
+    #L_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #M_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #M_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #N_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #N_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #O_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #O_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #P_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #P_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #Q_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #Q_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #R_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #R_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #S_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #S_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #T_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #T_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #U_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #U_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #V_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #V_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #W_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #W_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #X_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #X_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #Y_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #Y_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #Z_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #Z_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #A-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #A-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #B-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #B-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #C-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #C-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #D-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #D-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #E-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #E-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #F-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #F-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #G-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #G-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #H-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #H-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #I-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #I-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #J-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #J-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #K-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #K-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #L-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #L-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #M-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #M-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #N-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #N-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #O-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #O-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #P-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #P-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #Q-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #Q-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #R-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #R-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #S-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #S-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #T-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #T-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #U-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #U-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #V-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #V-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #W-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #W-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #X-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #X-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #Y-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #Y-_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #Z-_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #Z-_kh:hover
+    {
+        opacity: 0.95;
+    }
+
+    #A--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #A--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #B--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #B--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #C--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #C--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #D--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #D--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #E--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #E--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #F--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #F--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #G--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #G--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #H--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #H--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #I--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #I--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #J--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #J--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #K--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #K--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #L--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #L--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #M--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #M--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #N--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #N--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #O--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #O--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #P--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #P--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #Q--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #Q--_kh:hover
+    {
+        opacity: 0.95;
+    }
+    #R--_kh
+    {
+        width: calc(70vw / 4 - 2px);
+        height: calc(70vw / 4 - 2px);
+        opacity: 1;
+    }
+    #R--_kh:hover
+    {
+        opacity: 0.95;
+    }
+
+:root
+{
+    --bgcolor_hako: rgb(12, 12, 12);
+}
+:root[theme="swap"]
+{
+    --bgcolor_hako: rgb(243, 243, 243);
+}
