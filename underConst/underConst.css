@@ -1,0 +1,122 @@
+/* fonts */
+@font-face
+{
+    font-family: "HK Grotesk";
+    font-weight: 200;
+    src: url("/monooki/fnts/HKGrotesk-Light.woff2");
+}
+@font-face
+{
+    font-family: "HK Grotesk";
+    font-weight: 400;
+    src: url("/monooki/fnts/HKGrotesk-Regular.woff2");
+}
+@font-face
+{
+    font-family: "MPlus12";
+    src: url("/monooki/fnts/MPlus12.woff2");
+}
+
+/* zentai */
+html
+{
+    cursor: crosshair;
+    overflow: hidden;
+    background-color: rgb(22, 22, 229);
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+#used83o
+{
+    opacity: 0;
+    padding: 24px;
+}
+#logo
+{
+    position: absolute;
+    top: -75px; left: -75px;
+    scale: 100%;
+    z-index: -999;
+    user-select: none;
+}
+
+.left30
+{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    
+    display: grid;
+    grid-template-rows: 104px 1fr;
+    align-content: start;
+    z-index: -999;
+}
+
+.desc
+{
+    color: rgb(243, 243, 243);
+    background-color: var(--bgcolor_hako);
+
+    font-family: "MPlus12";
+    font-size: 10.8pt;
+    align-self: center;
+    justify-self: center;
+    border: none;
+    outline: none;
+    position: absolute;
+    resize: none;
+
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    z-index: 10;
+}
+.desc::selection
+{
+    color: rgb(12, 12, 12);
+    background-color: rgb(243, 243, 243);
+}
+
+/* links */
+a
+{
+    color: rgb(12, 12, 12);
+    font-weight: var(--fntweight);
+    text-decoration-line: none;
+}
+a::selection
+{
+    background-color: rgb(12, 12, 12);
+}
+    .links
+    {
+        color: rgb(12, 12, 12);
+        background-color: rgb(243, 243, 243);
+    }
+
+:root
+{
+    --bgcolor_hako: rgb(12, 12, 12);
+}
+:root[theme="swap"]
+{
+    --bgcolor_hako: rgb(243, 243, 243);
+}
+
+:root
+{
+    --bgcolor: rgb(22, 22, 229);
+    --cmdcolor: rgb(22, 22, 229);
+    --fntcolor: rgb(243, 243, 243);
+    --fntweight: 200;
+}
+:root[theme="swap"]
+{
+    --bgcolor: rgb(243, 243, 243);
+    --cmdcolor: rgb(22, 22, 229);
+    --fntcolor: rgb(22, 22, 229);
+    --fntweight: 400;
+}
