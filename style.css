@@ -30,13 +30,14 @@ html
 
 #used83o
 {
-    opacity: 0;
+    scale: 100%;
     padding: 24px;
 }
 #logo
 {
     position: absolute;
-    top: -75px; left: -75px;
+    scale: 0.33;
+    top: -203.5px; left: -201px;
     z-index: -999;
     user-select: none;
 }
@@ -325,7 +326,7 @@ a::selection
     
     position: absolute;
     writing-mode: vertical-rl;
-    top: 14vh; left: 30vw;
+    top: 12.5vh; left: 30vw;
     margin: 100px;
     scale: 120%;
     z-index: 999;
