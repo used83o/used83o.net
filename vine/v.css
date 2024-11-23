@@ -1,0 +1,40 @@
+/* hakos 4/4 = 70vw, 2/4 = 35vw, 1/4 = 17.5vw */
+.hako_v
+{
+    background-color: var(--bgcolor_hako);
+    
+    position: absolute;
+    top: 0; left: 30vw; bottom: 100px;
+    width: 70vw;
+    overflow: scroll;
+    user-select: none;
+    scale: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px;
+    z-index: -1;
+}
+    #A_v
+    {
+        width: calc(35vw - 2px);
+        height: auto;
+        scale: 80%;
+        aspect-ratio: 1/1;
+    }
+    #A_v:hover
+    {
+        opacity: 0.9;
+    }
+    #B_v
+    {
+        width: calc(35vw - 2px);
+        height: auto;
+        scale: 80%;
+        aspect-ratio: 1/1;
+    }
+    #B_v:hover
+    {
+        opacity: 0.9;
+    }
