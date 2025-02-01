@@ -8,6 +8,7 @@
 
 html
 {
+    background-color: rgb(12, 12, 12);
     user-select: none;
 }
 
@@ -19,7 +20,7 @@ html
     writing-mode: vertical-lr;
     font-family: "uni";
     font-size: 14px;
-    color: #1616E5;
+    color: rgb(243, 243, 243);
 }
 
 #tree
@@ -33,7 +34,7 @@ html
 {
     font-family: "uni";
     font-size: 14px;
-    color: #1616E5;
+    color: rgb(243, 243, 243);
 }
-.seed:visited { color: #1616E5; }
-.seed:hover { color: #1616E5; text-decoration: none;}
+.seed:visited { color: rgb(243, 243, 243); }
+.seed:hover { color: rgb(243, 243, 243); text-decoration: none;}
