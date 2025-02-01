@@ -1,0 +1,55 @@
+@font-face {
+    font-family: zenkakugn_r;
+    src: url(sozai/zenkakugn_r.woff2);
+}
+@font-face {
+    font-family: outfit;
+    src: url(sozai/outfit.woff2);
+    font-weight: 200;
+}
+
+html
+{
+    background: #5DC2F9;
+    overflow: hidden;
+    user-select: none;
+}
+
+#namae
+{
+    position: absolute;
+    left: 0;
+    margin: 12px;
+    font-family: zenkakugn_r;
+    font-size: 16px;
+    color: white;
+    line-height: 0px;
+}
+
+.moji
+{
+    position: absolute;
+    right: 0;
+    margin: 12px;
+    font-family: zenkakugn_r;
+    font-size: 16px;
+    color: white;
+    line-height: 0px;
+}
+
+#screen
+{
+    display: grid;
+    position: absolute;
+    left: -2px;
+    width: 100%;
+    scale: 90%;
+    top: 50vh;
+    align-self: center;
+    cursor: pointer;
+    transition: 1.4s ease-in-out;
+}
+#screen:hover
+{
+    top: 30vh;
+}
