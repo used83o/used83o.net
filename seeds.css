@@ -1,0 +1,39 @@
+/* fonts */
+@font-face
+{
+    font-family: "uni";
+    font-weight: 200;
+    src: url("monooki/fnts/unifont_jp.woff2");
+}
+
+html
+{
+    user-select: none;
+}
+
+#welcome
+{
+    position: absolute;
+    right: 0;
+    margin-right: 8px;
+    writing-mode: vertical-lr;
+    font-family: "uni";
+    font-size: 14px;
+    color: #1616E5;
+}
+
+#tree
+{
+    position: absolute;
+    padding-left: 0;
+    bottom: 0;
+}
+
+.seed
+{
+    font-family: "uni";
+    font-size: 14px;
+    color: #1616E5;
+}
+.seed:visited { color: #1616E5; }
+.seed:hover { color: #1616E5; text-decoration: none;}

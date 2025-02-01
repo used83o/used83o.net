@@ -72,14 +72,16 @@ used83o.net
 </textarea>
     <script>
         $("textarea").focus();
-        var matubi = $("textarea").val();
+        let matubi = $("textarea").val();
         $("textarea").val("");
         $("textarea").focus().val(matubi);
     </script>
     </div>
 
     <div class="hako_top" oncontextmenu="return false" onmousedown="return false">
-        <div id="A_top"><a href="https://note.com/used83o/n/n74c933fae9bf" target="_blank"rel="noopener noreferrer"><img src="monooki/concrete.jpg" width="100%" title="about"></a></div>
+        <div id="A_top">
+            <a href="javascript:void(0)" onmousedown="spawner()"><img src="monooki/concrete.jpg" width="100%" title="about"></a>
+        </div>
     </div>
 <!--/可変エリア-->
 
@@ -88,6 +90,16 @@ used83o.net
     <p id="nextpage" oncontextmenu="return false" style="user-select: none;"></p>
     <div class="dropzone"></div>
     <script src="DnD.js"></script>
+
+    <script>
+        function spawner() {
+            document.addEventListener('mouseup', function (e) {
+                spawn_x = e.screenX;
+                spawn_y = e.screenY;
+                window.open('seeds.html', null, 'top=' + spawn_y + ',left=' + spawn_x + ',width=320,height=320');
+            });
+        }
+    </script>
 
 </body>
 
